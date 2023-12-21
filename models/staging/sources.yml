@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: snow_source
+    database: TESSADB
+    schema: PUBLIC
+    tables:
+      - name: food_prices
+        identifier: FOOD_PRICES
